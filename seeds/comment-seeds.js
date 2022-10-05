@@ -1,5 +1,5 @@
 const { Comment } = require('../models');
-
+// seeds comment data on to heroku app.
 const commentdata = [
   {
     comment_text: 'Did not know this',

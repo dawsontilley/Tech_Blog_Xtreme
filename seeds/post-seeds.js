@@ -1,5 +1,5 @@
 const { Post } = require('../models');
-
+// seeds post data on to heroku app.
 const postdata = [
   {
     title: 'Apple Products',

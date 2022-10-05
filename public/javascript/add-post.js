@@ -1,9 +1,9 @@
 async function newFormHandler(event) {
   event.preventDefault();
-
+  //gets value of forms and sends to server through POST route.
   const title = document.querySelector('input[name="post-title"]').value;
   const post_body = document.querySelector('.target').value;
-  console.log(post_body);
+  
   const response = await fetch(`/api/posts`, {
     method: 'POST',
     body: JSON.stringify({

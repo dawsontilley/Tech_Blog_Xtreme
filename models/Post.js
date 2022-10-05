@@ -5,7 +5,7 @@ class Post extends Model {
   
 }
 
-// create fields/columns for Post model
+// creates column headers for post routes
 Post.init(
   {
     id: {
